@@ -1,0 +1,301 @@
+{
+  "nodes": [
+    {
+      "name": "is_adhoc",
+      "size": 1179,
+      "group": 1
+    },
+    {
+      "name": "is_badge",
+      "size": 1104,
+      "group": 1
+    },
+    {
+      "name": "is_event_host",
+      "size": 427,
+      "group": 1
+    },
+    {
+      "name": "is_event_mentor",
+      "size": 87,
+      "group": 1
+    },
+    {
+      "name": "is_event_coorganizer",
+      "size": 71,
+      "group": 1
+    },
+    {
+      "name": "is_github_code",
+      "size": 321,
+      "group": 1
+    },
+    {
+      "name": "is_github_issue",
+      "size": 0,
+      "group": 1
+    },
+    {
+      "name": "is_mozfest_contributor",
+      "size": 859,
+      "group": 1
+    },
+    {
+      "name": "is_bugzilla_bug",
+      "size": 365,
+      "group": 1
+    },
+    {
+      "name": "is_bugzilla_comment",
+      "size": 449,
+      "group": 1
+    },
+    {
+      "name": "is_transifex",
+      "size": 968,
+      "group": 1
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 0,
+      "value": 1179
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "value": 196
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "value": 103
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "value": 32
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "value": 18
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "value": 33
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "value": 21
+    },
+    {
+      "source": 0,
+      "target": 8,
+      "value": 40
+    },
+    {
+      "source": 0,
+      "target": 9,
+      "value": 41
+    },
+    {
+      "source": 1,
+      "target": 1,
+      "value": 1104
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "value": 180
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "value": 66
+    },
+    {
+      "source": 1,
+      "target": 4,
+      "value": 52
+    },
+    {
+      "source": 1,
+      "target": 5,
+      "value": 12
+    },
+    {
+      "source": 1,
+      "target": 7,
+      "value": 41
+    },
+    {
+      "source": 1,
+      "target": 8,
+      "value": 73
+    },
+    {
+      "source": 1,
+      "target": 9,
+      "value": 86
+    },
+    {
+      "source": 2,
+      "target": 2,
+      "value": 427
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "value": 55
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "value": 51
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "value": 13
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "value": 23
+    },
+    {
+      "source": 2,
+      "target": 8,
+      "value": 61
+    },
+    {
+      "source": 2,
+      "target": 9,
+      "value": 62
+    },
+    {
+      "source": 3,
+      "target": 3,
+      "value": 87
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "value": 35
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "value": 5
+    },
+    {
+      "source": 3,
+      "target": 7,
+      "value": 4
+    },
+    {
+      "source": 3,
+      "target": 8,
+      "value": 26
+    },
+    {
+      "source": 3,
+      "target": 9,
+      "value": 29
+    },
+    {
+      "source": 4,
+      "target": 4,
+      "value": 71
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "value": 8
+    },
+    {
+      "source": 4,
+      "target": 7,
+      "value": 5
+    },
+    {
+      "source": 4,
+      "target": 8,
+      "value": 21
+    },
+    {
+      "source": 4,
+      "target": 9,
+      "value": 22
+    },
+    {
+      "source": 5,
+      "target": 5,
+      "value": 321
+    },
+    {
+      "source": 5,
+      "target": 7,
+      "value": 10
+    },
+    {
+      "source": 5,
+      "target": 8,
+      "value": 31
+    },
+    {
+      "source": 5,
+      "target": 9,
+      "value": 48
+    },
+    {
+      "source": 7,
+      "target": 7,
+      "value": 859
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "value": 14
+    },
+    {
+      "source": 7,
+      "target": 9,
+      "value": 18
+    },
+    {
+      "source": 8,
+      "target": 8,
+      "value": 365
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "value": 246
+    },
+    {
+      "source": 8,
+      "target": 10,
+      "value": 6
+    },
+    {
+      "source": 9,
+      "target": 9,
+      "value": 449
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "value": 6
+    },
+    {
+      "source": 10,
+      "target": 10,
+      "value": 968
+    }
+  ]
+}

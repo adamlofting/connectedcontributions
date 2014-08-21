@@ -59,7 +59,7 @@ var svg = d3.select('#chart').append('svg')
   .append('g')
     .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
 
-d3.json('/data.json', function(data) {
+d3.json('../data.json', function(data) {
     var linkExtent = d3.extent(data.links, function (d) { return d.value; });
 
     var x = d3.scale.ordinal().rangeBands([0, width]),

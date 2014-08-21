@@ -1,0 +1,100 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>connected contribution types</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="container">
+            <div class="header">
+                <h3 class="text-muted">connected contribution types</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12" id="chart">
+                </div>
+            </div>
+
+            <div class="row marketing">
+                <div class="col-lg-12">
+                    <h3>Overlapping Types of Contribution</h3>
+                    <h5>21 Aug 2014</h5>
+                    <p>Which systems do individual contributors interact with? Where do people interact with multiple systems?</p>
+                    <h4>Notes</h4>
+                    <ul>
+                        <li>This is just Mozilla Foundation data
+                            <ul>
+                                <li>This is missing OpenNews data (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1053141">Bug to fix first</a>)</li>
+                                <li>An equivilent <em>All Mozilla</em> view will be possible later in the year via <a href="https://wiki.mozilla.org/Baloo">Baloo</a></li></ul>
+                        </li>
+                        <li>This is all historic contributions (not just the last 12 months)
+                            <ul>Some of these ways of counting/recording contribution are newer, so this will influence the total numbers (e.g. event mentoring record is new, bugzilla is older)</ul>
+                        </li>
+                        <li>We don't have email addresses for Transifex users, so can't de-dupe them against other systems.</li>
+
+                        <li>This is not updating live (though could be soon)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p><a href="http://adamlofting.com/">Adam</a> copied this graph with <span class="glyphicon glyphicon-heart"></span> from <a href="http://bost.ocks.org/mike/miserables/">Les Misérables Co-occurrence</a></p>
+            </div>
+
+        </div>
+
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="../bower_components/bootstrap/js/affix.js"></script>
+        <script src="../bower_components/bootstrap/js/alert.js"></script>
+        <script src="../bower_components/bootstrap/js/dropdown.js"></script>
+        <script src="../bower_components/bootstrap/js/tooltip.js"></script>
+        <script src="../bower_components/bootstrap/js/modal.js"></script>
+        <script src="../bower_components/bootstrap/js/transition.js"></script>
+        <script src="../bower_components/bootstrap/js/button.js"></script>
+        <script src="../bower_components/bootstrap/js/popover.js"></script>
+        <script src="../bower_components/bootstrap/js/carousel.js"></script>
+        <script src="../bower_components/bootstrap/js/scrollspy.js"></script>
+        <script src="../bower_components/bootstrap/js/collapse.js"></script>
+        <script src="../bower_components/bootstrap/js/tab.js"></script>
+        <script src="../bower_components/d3/d3.min.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
